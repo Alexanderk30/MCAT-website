@@ -1,0 +1,43 @@
+:root {
+  --gold-trim: 5px;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.MuiToolbar-root {
+  background-color: #164863;
+  border-bottom: var(--gold-trim) solid #BF9646;
+}
+
+#LandingPageLargeOpening {
+  /* border: 4px dashed green; */
+    background-color: #a3cbe0;
+    flex-grow: 1;
+}
+
+#LandingPageExampleSchedules {
+  /* border: 4px dashed yellow; */
+    background-color: #164863;
+    border-top: var(--gold-trim) solid #BF9646;
+    height: 25vh;
+    
+} 
+
+/* .ExampleSchedule { */
+    /* NEVER USE PIXELS */
+    
+    /* background-color: #a3cbe0; */
+/* } */
+
+.ExampleSchedule.MuiButtonBase-root {
+    height: 20vh;
+    width: 20vh;
+    background-color: #a3cbe0;
+    border-radius: 100%;
+    border: var(--gold-trim) solid #BF9646;
+    /* box-shadow: 2px 5px x rgb(0, 0, 0); */
+}
