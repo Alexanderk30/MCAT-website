@@ -14,12 +14,18 @@ function App() {
       <div id='LandingPageLargeOpening'>
         <ButtonAppBar/> 
       </div>
+      <div id='WebsiteDescription'>
+        <h1>mcatPlanner</h1>
+          <p>Welcome to the MCAT Study Plan Creator – Your Gateway to Success! 🚀Embark on your journey to conquer the MCAT with confidence using our dynamic study plan generator. Tailored to accommodate your unique learning style and schedule, our innovative tool crafts a personalized roadmap that optimizes your preparation for this critical examination.</p>
+      
+      </div>
       <div id='LandingPageExampleSchedules'>
         <ButtonBase className='ExampleSchedule'> <img src={imageFarLeft}/></ButtonBase>
         <ButtonBase className='ExampleSchedule'><img src={middleImage}/></ButtonBase>
         <ButtonBase className='ExampleSchedule'><img src={farRight}/></ButtonBase>
         <ButtonBase className='TryExampleSchedules'>Try These Example Schedules</ButtonBase>
       </div>
+    
     </div>
   );
 }
