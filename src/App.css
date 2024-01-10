@@ -21,9 +21,12 @@
 
 #LandingPageExampleSchedules {
   /* border: 4px dashed yellow; */
+    display:flex;
     background-color: #164863;
     border-top: var(--gold-trim) solid #BF9646;
     height: 25vh;
+    justify-content:space-evenly;
+    align-items: center;
     
 } 
 
@@ -39,5 +42,25 @@
     background-color: #a3cbe0;
     border-radius: 100%;
     border: var(--gold-trim) solid #BF9646;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:18px;
+     
     /* box-shadow: 2px 5px x rgb(0, 0, 0); */
+    
+}
+
+.TryExampleSchedules.MuiButtonBase-root {
+    background-color: #a3cbe0;
+    border: var(--gold-trim) solid #BF9646;
+    padding: 2em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:18px;
+    font-weight: bold;
+
+    /*normal is like 300 and bold is like 700 */
+  
+}
+
+.ExampleSchedule > img{
+  width:65%;
 }
