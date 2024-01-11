@@ -4,6 +4,7 @@ import imageFarLeft from "./assets/img/undraw_coding_re_iv62.svg";
 import middleImage from "./assets/img/undraw_in_progress_re_m1l6.svg";
 import farRight from "./assets/img/undraw_lightbulb_moment_re_ulyo (1).svg";
 import { ButtonBase } from '@mui/material';
+// import HomepageCalender from"./assets/img/
 
 function App() {
 
@@ -14,6 +15,9 @@ function App() {
       <div id='LandingPageLargeOpening'>
         <ButtonAppBar/> 
       </div>
+      <img src="MCATwebsiteMainPageBackground.jpg" width="20px" height="20px">
+      
+      </img>
       <div id='WebsiteDescription'>
         <h1>mcatPlanner</h1>
           <p>Welcome to the MCAT Study Plan Creator – Your Gateway to Success! 🚀Embark on your journey to conquer the MCAT with confidence using our dynamic study plan generator. Tailored to accommodate your unique learning style and schedule, our innovative tool crafts a personalized roadmap that optimizes your preparation for this critical examination.</p>
