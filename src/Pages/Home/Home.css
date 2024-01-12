@@ -1,0 +1,74 @@
+
+#LandingPageLargeOpening {
+  /* border: 4px dashed green; */
+  /* this is the background color of the main page */
+    background-color: #a3cbe0; 
+    height: 100%;
+    
+}
+
+#LandingPageLargeOpening > img {
+position:absolute;
+width:60%;
+left:10%;
+bottom:30%;
+border-radius: 5%/10%;
+}   
+#LandingPageExampleSchedules {
+  /* border: 4px dashed yellow; */
+    display:flex;
+    background-color: #164863;
+    border-top: var(--white-trim) solid #ffff;
+    height: 25vh;
+    justify-content:space-evenly;
+    align-items: center;  
+} 
+/* .ExampleSchedule { */
+    /* NEVER USE PIXELS */   
+    /* background-color: #a3cbe0; */
+/* } */
+.ExampleSchedule.MuiButtonBase-root {
+    height: 20vh;
+    width: 20vh;
+    background-color: #a3cbe0;
+    border-radius: 100%;
+    border: var(--gold-trim) solid #ffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:18px;
+    margin:10px;
+    /* box-shadow: 2px 5px x rgb(0, 0, 0); */   
+}
+.TryExampleSchedules.MuiButtonBase-root {
+    background-color: #a3cbe0;
+    border-radius:5%/20%;
+    padding:1em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:18px;
+    font-weight: bold;
+    color:#ffff;
+    /*normal is like 300 and bold is like 700 */ 
+}
+.ExampleSchedule > img{
+    width:65%;
+}
+#WebsiteDescription{
+    position:absolute;
+    top:25vh;
+    right:10%;
+    border-radius:5%/10%;
+    height: auto;
+    width: 80vh;
+    padding:3vh;
+    background-color: #164863;
+    color:#ffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:18px;
+}
+#landingPageBackgroundCalender{
+    height:auto;
+    width: auto;
+    justify-content: left;
+}
+.Homepage{
+  height:75vh;
+}
