@@ -25,7 +25,7 @@
 position:absolute;
 width:60%;
 left:10%;
-bottom:25%;
+bottom:29%;
 border-radius: 5%/10%;
 }   
 #LandingPageExampleSchedules {
@@ -59,6 +59,7 @@ border-radius: 5%/10%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:18px;
     font-weight: bold;
+    color:#ffff;
     /*normal is like 300 and bold is like 700 */ 
 }
 .ExampleSchedule > img{
@@ -66,8 +67,8 @@ border-radius: 5%/10%;
 }
 #WebsiteDescription{
     position:absolute;
-    top:20vh;
-    right:10vh;
+    top:25vh;
+    right:10%;
     border-radius:5%/10%;
     height: auto;
     width: 80vh;

@@ -14,7 +14,7 @@ function App() {
     {/* everything we code will be in here */}
       
       <div id='LandingPageLargeOpening'>
-        <ButtonAppBar/> <img src={MainPageCalender}/>
+        <ButtonAppBar/> <img src={MainPageCalender}alt="d"/>
       </div>
       
       <div id='WebsiteDescription'>
@@ -23,9 +23,9 @@ function App() {
       
       </div>
       <div id='LandingPageExampleSchedules'>
-        <ButtonBase className='ExampleSchedule'> <img src={imageFarLeft}/></ButtonBase>
-        <ButtonBase className='ExampleSchedule'><img src={middleImage}/></ButtonBase>
-        <ButtonBase className='ExampleSchedule'><img src={farRight}/></ButtonBase>
+        <ButtonBase className='ExampleSchedule'> <img src={imageFarLeft} alt="a"/></ButtonBase>
+        <ButtonBase className='ExampleSchedule'><img src={middleImage}alt="b"/></ButtonBase>
+        <ButtonBase className='ExampleSchedule'><img src={farRight}alt="c"/></ButtonBase>
         <ButtonBase className='TryExampleSchedules'>Click The Icons To Try These Example Schedules</ButtonBase>
       </div>
     
