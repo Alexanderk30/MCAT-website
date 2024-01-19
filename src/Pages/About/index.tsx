@@ -8,6 +8,7 @@ export default function AboutPage() {
     <div id="Title">
       <h1>Why Use MCATPlanner?</h1>
       </div>
+  <div id="AllBoxes">
     <div id="one">
     <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam gravida sollicitudin ipsum. Quisque euismod aliquet bibendum. Cras faucibus vehicula dictum. Vivamus accumsan vel purus sit amet laoreet. Ut vestibulum at dui sit amet tincidunt. Sed vitae odio vitae mauris ultricies bibendum. Nulla vitae nulla non tortor auctor egestas vel vitae augue. Nunc rutrum ipsum orci, id aliquet arcu lobortis sit amet. Maecenas sed commodo libero. Nullam suscipit velit mi, vel rutrum sem aliquam in.
@@ -29,8 +30,9 @@ export default function AboutPage() {
     <div id="five">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam gravida sollicitudin ipsum. Quisque euismod aliquet bibendum. Cras faucibus vehicula dictum. Vivamus accumsan vel purus sit amet laoreet. Ut vestibulum at dui sit amet tincidunt. Sed vitae odio vitae mauris ultricies bibendum. Nulla vitae nulla non tortor auctor egestas vel vitae augue. Nunc rutrum ipsum orci, id aliquet arcu lobortis sit amet. Maecenas sed commodo libero. Nullam suscipit velit mi, vel rutrum sem aliquam in.
 </p>
+</div>
     </div>
-    <Link to="/">home</Link>
+    {/* <Link to="/">home</Link> */}
     </div>
     </div>
   );

@@ -3,7 +3,14 @@
     color:#ffff;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+#AllBoxes{
+    flex-direction: column;
+    position:relative;
+    display:flex;
+    justify-content:space-between;
+    margin:5vh;
+    margin-bottom: 5vh;
+}
 #Title{
     font-size:18px;
     font-weight: bold;
@@ -12,53 +19,51 @@
 }
 
 #one{
-    position:absolute;
     height:35vh;
     width:60vh;
     background-color:#164863;
     border-radius:5%/10%;
-    padding:10px;
     border:solid 3px white;
+    padding:1vh;
+    margin-bottom:5vh;
 }
 #two{
-    position:absolute;
+    
     height:35%;
     width:60vh;
     background-color: #164863;
     padding:10px;
     border-radius: 5%/10%;
-    top:55vh;
-    left:38vh;
     border:solid 3px white;
+    margin-bottom:5vh;
 }
 #three{
-    position:absolute;
+  
     height:35%;
     width:60vh;
-    background-color:#164863;
-    padding:10px;
+    background-color:red;
+    padding:1vh;
     border-radius: 5%/10%;
-    left:75vh;
     border:solid 3px white;
+    margin-bottom:5vh;
 }
 #four{
-    position:absolute;
+  
     height:35%;
     width:60vh;
-    background-color:#164863;
-    padding:10px;
+    background-color:green;
+    padding:1vh;
     border-radius: 5%/10%;
-    top:55vh;
-    right:38vh;
     border:solid 3px white;
+    margin-bottom:5vh;
 }
 #five{
-    position:absolute;
+   
     height:35vh;
     width:60vh;
-    background-color: #164863;
+    background-color: purple;
     border-radius:5%/10%;
-    padding:10px;
-    right:0px;
+    padding:1vh;
     border:solid 3px white;
+    margin-bottom:5vh;
 }
