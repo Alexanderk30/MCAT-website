@@ -8,13 +8,11 @@ export default function AboutCard() {
         Personalized Precision
         </Typography>
         <Typography variant="body2">
-          well meaning and kindly.
-          <br />
-          {'"a benevolent smile"'}
+        Unleash the power of a study plan designed just for you. Input your strengths, weaknesses, and time constraints, and watch as the creator generates a meticulously curated roadmap to success.
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Learn More</Button>
+        <Button size="small">Try Now</Button>
       </CardActions>
     </Card>
       );
