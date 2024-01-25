@@ -1,15 +1,15 @@
 #AboutPage{
-
+    max-width: 100%;
     color:#ffff;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
 }
 #Title{
     margin: 0 auto;
     word-wrap: normal;
+    max-width: 100%;
     width: 500px; 
-    overflow-wrap: break-word; 
-    word-wrap: break-word;         
-    word-break: break-word; 
+    word-wrap: break-word;        
     text-align: center;
 }
 #box1{
@@ -52,4 +52,11 @@
     justify-content: center;
     align-items: center;
     z-index: 0;
+}
+#CardBar{
+    position:absolute;
+    max-width: 100%;
+    top:100vh;
+    margin:20px;
+    display:flex;
 }
