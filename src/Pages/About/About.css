@@ -3,67 +3,53 @@
     color:#ffff;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#AllBoxes{
-    flex-direction: column;
-    position:relative;
-    display:flex;
-    justify-content:space-between;
-    margin:5vh;
-    margin-bottom: 5vh;
-}
 #Title{
-    font-size:18px;
-    font-weight: bold;
-    display:flex;
+    margin: 0 auto;
+    word-wrap: normal;
+    width: 500px; 
+    overflow-wrap: break-word; 
+    word-wrap: break-word;         
+    word-break: break-word; 
+    text-align: center;
+}
+#box1{
+    height:60vh;
+    width:40vh;
+    background-color: rgb(43, 42, 42);
+    border-radius: 10%/10%;
+    position:absolute;
+    left:40%;
+    top:30%;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    z-index: 2;
 }
-
-#one{
-    height:35vh;
-    width:60vh;
-    background-color:#164863;
-    border-radius:5%/10%;
-    border:solid 3px white;
-    padding:1vh;
-    margin-bottom:5vh;
+#box2{
+    height:60vh;
+    width:40vh;
+    background-color: rgb(189, 34, 34);
+    transform: rotate(20deg);
+    border-radius: 10%/10%;
+    position:absolute;
+    left:50%;
+    top:35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
 }
-#two{
-    
-    height:35%;
-    width:60vh;
-    background-color: #164863;
-    padding:10px;
-    border-radius: 5%/10%;
-    border:solid 3px white;
-    margin-bottom:5vh;
-}
-#three{
-  
-    height:35%;
-    width:60vh;
-    background-color:red;
-    padding:1vh;
-    border-radius: 5%/10%;
-    border:solid 3px white;
-    margin-bottom:5vh;
-}
-#four{
-  
-    height:35%;
-    width:60vh;
-    background-color:green;
-    padding:1vh;
-    border-radius: 5%/10%;
-    border:solid 3px white;
-    margin-bottom:5vh;
-}
-#five{
-   
-    height:35vh;
-    width:60vh;
-    background-color: purple;
-    border-radius:5%/10%;
-    padding:1vh;
-    border:solid 3px white;
-    margin-bottom:5vh;
+#box3{
+    height:60vh;
+    width:40vh;
+    background-color: rgb(183, 157, 157);
+    transform: rotate(-20deg);
+    border-radius: 10%/10%;
+    position:absolute;
+    right:50%;
+    top:35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
 }

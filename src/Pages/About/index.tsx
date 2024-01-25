@@ -16,10 +16,15 @@ export default function AboutPage() {
     <div id="AboutPage">
        <ButtonAppBar/>
     <div id="Title">
-      <h1>Why Use MCATPlanner?</h1>
+      <h1>We Personalize Every Schedule To Cater Your Needs</h1>
       </div>
-      <AboutCard/>
+          <div id="box1">
+             <p>sdsds</p>
+         </div>
+      <div id="box2">
+      </div>
+      <div id="box3">
+      </div>
     </div>
-
   );
 }
