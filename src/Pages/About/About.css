@@ -60,3 +60,8 @@
     margin:20px;
     display:flex;
 }
+#Text1{
+    position: absolute;
+    top:140vh;
+    left:30vh;
+}

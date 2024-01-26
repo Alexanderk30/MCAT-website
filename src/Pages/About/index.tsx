@@ -28,6 +28,12 @@ export default function AboutPage() {
       <div id="CardBar">
         <AboutCard Title={'Easy To Use'} Body={'Simply Select Your Resources and Get a Schedule In Seconds'}></AboutCard>
         <AboutCard Title={'Cover All Your Content'} Body={'Select All of Resources You Have Access To In Order To Further Personalize Your Schedule'}></AboutCard>
+        <AboutCard Title={'sdsdsd'} Body={'sdsdsd'}></AboutCard>
+        <AboutCard Title={'sdsdsd'} Body={'sdsdsd'}></AboutCard>
+      </div>
+      <div id="Text1"> 
+      {/* This is the text right below the cards on the about page */}
+      <p>sdsdsddsddsd</p>
       </div>
       </div>
   );
