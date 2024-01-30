@@ -91,6 +91,22 @@ a{
 }
 #image1{
     position:relative;
-    top:-50vh;
-
+    top:-40vh;
+    right:-40vh;
+}
+#image1 >img{
+    height:50vh;
+    width:auto;
+}
+#image2{
+    position:relative;
+    top:20vh;
+    left:-150vh;
+}
+#image2>img{
+    height:60vh;
+    width: auto;
+}
+#AboutPageBoxText2{
+    position: relative;
 }

@@ -10,6 +10,7 @@ import '@fontsource/roboto/700.css';
 import { Button, CardActions, Typography } from '@mui/material';
 import AboutCard from '../../components/AboutCard';
 import imageFarLeft from "../../assets/img/undraw_coding_re_iv62.svg";
+import farRight from "../../assets/img/undraw_lightbulb_moment_re_ulyo (1).svg";
 export default function AboutPage() {
   return (
     
@@ -43,7 +44,14 @@ export default function AboutPage() {
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam efficitur augue et diam viverra blandit. Nunc semper euismod erat, a vestibulum diam gravida ac. In interdum at nibh id ornare. Aliquam et sagittis ante. Cras congue lectus at ornare eleifend. Aliquam mi lacus, iaculis quis interdum hendrerit, malesuada ac lacus. Phasellus ut augue dolor. Suspendisse metus eros, rutrum at maximus vel, sodales porttitor justo. Donec ut urna quis elit condimentum dignissim. Cras dignissim porttitor massa, eu sollicitudin sapien. Fusce sollicitudin posuere leo sit amet tempor. Proin luctus eros non sem placerat, in sagittis ante pretium. Vestibulum facilisis tempor nibh, a ultrices justo cursus vitae. Praesent ultrices velit risus, eu semper est aliquet vitae. Nulla eget dolor vitae ipsum lobortis tempor quis volutpat augue.</p>
       </div>
       <div id="image1">
-      <img src={imageFarLeft} alt="a"/>
+        <img src={imageFarLeft} alt="a"/>
+      </div>
+      <div id="image2">
+        <img src={farRight}/>
+      </div>
+      <div id="Text1">
+        <h2>Studying For The MCAT Can Be Scary... We Get That</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam efficitur augue et diam viverra blandit. Nunc semper euismod erat, a vestibulum diam gravida ac. In interdum at nibh id ornare. Aliquam et sagittis ante. Cras congue lectus at ornare eleifend. Aliquam mi lacus, iaculis quis interdum hendrerit, malesuada ac lacus. Phasellus ut augue dolor. Suspendisse metus eros, rutrum at maximus vel, sodales porttitor justo. Donec ut urna quis elit condimentum dignissim. Cras dignissim porttitor massa, eu sollicitudin sapien. Fusce sollicitudin posuere leo sit amet tempor. Proin luctus eros non sem placerat, in sagittis ante pretium. Vestibulum facilisis tempor nibh, a ultrices justo cursus vitae. Praesent ultrices velit risus, eu semper est aliquet vitae. Nulla eget dolor vitae ipsum lobortis tempor quis volutpat augue.</p>
       </div>
       </div>
       </div>
